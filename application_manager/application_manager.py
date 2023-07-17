@@ -1,5 +1,6 @@
 from .models import ApplicationModel
 
+
 class ApplicationManager:
     course = ApplicationModel
     def get(self,filters:dict = None):
